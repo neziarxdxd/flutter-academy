@@ -13,4 +13,9 @@
     - Degree
     - Instructor Code (*this code will come from the instructor*)
 2. Student can Login
+    - *they can ask for forgot pasword*
+    - email or username
+    - *password*
 
+## STUDENT RESUME
+1. 
