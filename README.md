@@ -18,4 +18,12 @@
     - *password*
 
 ## STUDENT RESUME
-1. 
+1. Can upload photo
+2. Can add their skills 
+3. Can put their repository link
+4. Add their school history
+5. Add their awards 
+6. Can add their competition experience
+7. Can add their work immersion
+
+
