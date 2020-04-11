@@ -2,7 +2,7 @@
 
 **Dedication:** This is dedicated to the Institute of Computing Studies and Library Information Science 
 
-# REQUIREMENT 
+# REQUIREMENTS
 
 ## Student
 1. Student can register
@@ -27,3 +27,4 @@
 7. Can add their work immersion
 
 
+Add
