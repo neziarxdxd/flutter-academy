@@ -1,30 +1,39 @@
-# WORK IMMERSION HUB FOR CITY COLLEGE OF ANGELES 
-
-**Dedication:** This is dedicated to the Institute of Computing Studies and Library Information Science 
-
-# REQUIREMENTS
-
-## Student
-1. Student can register
-    - First Name
-    - Last Name
-    - Phone Number
-    - Emaiil
-    - Degree
-    - Instructor Code (*this code will come from the instructor*)
-2. Student can Login
-    - *they can ask for forgot pasword*
-    - email or username
-    - *password*
-
-## STUDENT RESUME
-1. Can upload photo
-2. Can add their skills 
-3. Can put their repository link
-4. Add their school history
-5. Add their awards 
-6. Can add their competition experience
-7. Can add their work immersion
+# APPBREW 
 
 
-Add
+Welcome to Introduction to Flutter Development with Dart - created in collaboration with the Google Flutter team.
+
+
+
+The course contains the first 10 hours of the Complete Flutter Development Bootcamp and will teach you all the fundamentals of Flutter development to get you started. We built this course over months, perfecting the curriculum together with the Flutter team to teach you Flutter from scratch.
+
+
+
+Our Flutter development course teaches you how to code using Dart and build beautiful, fast, native-quality iOS and Android apps. Even if you have ZERO programming experience.
+
+
+
+
+We'll take you step-by-step through engaging and fun video tutorials and teach you everything you need to know to get started as a Flutter developer!
+
+
+
+The course includes 10+ hours of HD video tutorials and builds your programming knowledge while making real world apps. Including a quiz app, a choose-your-own-adventure game and even a musical instrument!
+
+
+
+By the end of this course, you will be programming in Dart and be ready to start building apps with Flutter.
+
+
+
+You'll also have a portfolio of over 8 apps that will give you a taste of what it's like to work with Flutter and Dart.
+
+
+
+Sign up today, and look forward to:
+
+
+
+Over 10 hours of HD 1080p video content.
+Building over 8 fully-fledged apps.
+Comprehensive course materials and curriculum.
