@@ -3,42 +3,29 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  @override
+@override
   Widget build(BuildContext context) {
     return MaterialApp(
       home:Scaffold(
       backgroundColor: Colors.teal,
       body: SafeArea(
-              child: Row(    
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              mainAxisAlignment: MainAxisAlignment.spaceAround, 
-              children: <Widget>[
-                
-                Container(
-                  
-                  color: Colors.blue,
-                  width:100,
-                  height: 100
-                ),
-
-                Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: <Widget>[
-                    Container(color: Colors.yellow,width: 100,height:100),
-                    Container(color: Colors.green,width: 100,height:100),
-                  ],
-                ),
-                Container(
-                  color: Colors.red,
-                  width: 100,
-                  height: 100,
-                ),
-                
-          ],
+        child: Column( 
+        
+         
+        children: <Widget>[
+          CircleAvatar(
+          backgroundImage:AssetImage('images/profile.jpg'),
+          radius: 50,
+          ),
+          Container(child: Row(children: <Widget>[
+            Icon(Icons.account_circle,color: Colors.white,),
+          ],),)
+          
+        ],  
         ),
       ),
-      
-        )
+
+      )
     );
   }
 }
