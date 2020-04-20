@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
             backgroundImage:AssetImage('images/profile.jpg'),
             radius: 50,
             ),
+            Text('Developer'),
             Container(
               margin: EdgeInsets.only(left: 30.0,right:30,top:50.0),
               padding:EdgeInsets.only(top:10,bottom: 10),            
