@@ -1,10 +1,14 @@
+import 'package:audioplayers/audio_cache.dart';
 import 'package:flutter/material.dart';
+import 'package:audioplayers/audioplayers.dart';
 
 void main() => runApp(XylophoneApp());
 
 class XylophoneApp extends StatelessWidget {
   void playSound(){
-    print('TEST');
+    final audioPlay = AudioCache();
+    audioPlay.play('note1.wav');
+    
   }
 
   Expanded buildButton({Color color}){
