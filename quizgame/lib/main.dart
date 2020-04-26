@@ -2,14 +2,10 @@ import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
 
-class MyApp extends StatefulWidget {
-  @override
-  _MyAppState createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    
     return MaterialApp(
       
       home: Scaffold(
@@ -23,13 +19,23 @@ class _MyAppState extends State<MyApp> {
       )
     );
     
-    }
+  }
 }
 
-class QuizApp extends StatelessWidget {
+class QuizApp extends StatefulWidget {
+  @override
+  _QuizAppState createState() => _QuizAppState();
+}
+
+class _QuizAppState extends State<QuizApp> {
+ int questionNumber = 0;
   List question =[['You can lead a cow down stairs but not up stairs.', false,],
   [ 'Approximately one quarter of human bones are in the feet.', true,],
   ['A slug\'s blood is green.', true,]]; 
+  
+  void changeNumber(){
+    questionNumber++;
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -43,21 +49,32 @@ class QuizApp extends StatelessWidget {
           Padding(     
 
             padding: const EdgeInsets.all(40.0),
-            child: Text(question[0][0],
+            child: Text(question[questionNumber][0],
             style: TextStyle(fontSize: 20,color: Colors.white ),
             
             ),
           ),                  
           FlatButton(
               padding: EdgeInsets.symmetric(horizontal: 60,vertical: 20),
-              onPressed: (){}, 
+              onPressed: (){ 
+                setState(() {
+                  changeNumber();                  
+                });
+                               
+
+              }, 
               child: Text('TRUE',style: TextStyle(color: Colors.white),
               ),color: Colors.blue,
             ),
             SizedBox(height: 20,),
             FlatButton(
               padding: EdgeInsets.symmetric(horizontal: 60,vertical: 20),
-              onPressed: (){}, 
+              onPressed: (){
+                 setState(() {
+                  changeNumber();                  
+                });
+
+              }, 
               child: Text('FALSE',style: TextStyle(color: Colors.white)),color: Colors.red,
             ),
             Row(
@@ -74,3 +91,11 @@ class QuizApp extends StatelessWidget {
     
   }
 }
+
+
+
+
+
+
+  ///dfdf
+
