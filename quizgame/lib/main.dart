@@ -47,8 +47,7 @@ class QuizApp extends StatelessWidget {
             style: TextStyle(fontSize: 20,color: Colors.white ),
             
             ),
-          ),
-                  
+          ),                  
           FlatButton(
               padding: EdgeInsets.symmetric(horizontal: 60,vertical: 20),
               onPressed: (){}, 
