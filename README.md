@@ -33,7 +33,7 @@ You'll also have a portfolio of over 8 apps that will give you a taste of what i
 Sign up today, and look forward to:
 
 
-
+<!--raizen-->
 Over 10 hours of HD 1080p video content.
 Building over 8 fully-fledged apps.
 Comprehensive course materials and curriculum.
