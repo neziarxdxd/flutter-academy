@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'Questions.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -29,10 +29,16 @@ class QuizApp extends StatefulWidget {
 
 class _QuizAppState extends State<QuizApp> {
  int questionNumber = 0;
-  List question =[['You can lead a cow down stairs but not up stairs.', false,],
-  [ 'Approximately one quarter of human bones are in the feet.', true,],
-  ['A slug\'s blood is green.', true,]]; 
-  
+  // List question =[['You can lead a cow down stairs but not up stairs.', false,],
+  // [ 'Approximately one quarter of human bones are in the feet.', true,],
+  // ['A slug\'s blood is green.', true,]]; 
+  // List test = [Questions("fdfd", true)];
+  List<Questions> questionBank = [
+    Questions('You can lead a cow down stairs but not up1 stairs',false),
+    Questions('You can lead a cow down stairs but not up22 stairs',true),
+    Questions('You can lead a cow down stairs but not up232 stairs',false),
+    
+  ];
   void changeNumber(){
     questionNumber++;
   }
@@ -49,7 +55,7 @@ class _QuizAppState extends State<QuizApp> {
           Padding(     
 
             padding: const EdgeInsets.all(40.0),
-            child: Text(question[questionNumber][0],
+            child: Text(questionBank[questionNumber].question,
             style: TextStyle(fontSize: 20,color: Colors.white ),
             
             ),
