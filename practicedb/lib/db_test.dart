@@ -81,8 +81,8 @@ void main() async {
   }
 
   var fido = Dog(
-    id: 0,
-    name: 'Fido',
+    id: 3,
+    name: 'Mistiso',
     age: 35,
   );
 
@@ -98,17 +98,17 @@ void main() async {
     name: fido.name,
     age: fido.age + 7,
   );
-  await updateDog(fido);
+ 
 
   // Print Fido's updated information.
   print(await dogs());
 
   // Delete Fido from the database.
-  await deleteDog(fido.id);
-
+ 
   // Print the list of dogs (empty).
   print(await dogs());
 }
+
 
 class Dog {
   final int id;
