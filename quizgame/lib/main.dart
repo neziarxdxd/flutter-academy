@@ -79,13 +79,10 @@ class _QuizAppState extends State<QuizApp> {
                  setState(() {
                   checkAnswer(false);                  
                 });
-
               }, 
               child: Text('FALSE',style: TextStyle(color: Colors.white)),color: Colors.red,
             ),
-            Row(
-              children:countingPoints,
-            )
+            Row(children:countingPoints,)
              
 
           ],
