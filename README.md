@@ -4,7 +4,7 @@
 Welcome to Introduction to Flutter Development with Dart - created in collaboration with the Google Flutter team.
 
 
-
+<!-- done -->
 The course contains the first 10 hours of the Complete Flutter Development Bootcamp and will teach you all the fundamentals of Flutter development to get you started. We built this course over months, perfecting the curriculum together with the Flutter team to teach you Flutter from scratch.
 
 
