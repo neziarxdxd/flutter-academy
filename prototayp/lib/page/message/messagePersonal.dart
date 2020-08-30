@@ -9,12 +9,29 @@ class _MessageSpecialState extends State<MessageSpecial> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue,
+      appBar: AppBar(
+        elevation: 0.0,
+        title: Center(child: Text("Message for you")),
+      ),
+      backgroundColor: Colors.white,
       body: Container(
-        child: Column(
-          children: [
-            Text(" Happy 6th Anniversary Babe "),
-          ],
+        child: Padding(
+          padding: const EdgeInsets.only(left: 20),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Center(
+                child: Text(
+                  " Happy 6th Anniversary \nBabe ",
+                  style: TextStyle(
+                      fontSize: 40.0,
+                      color: Colors.blue,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Poppins'),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
