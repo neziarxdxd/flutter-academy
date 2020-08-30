@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dbstorage.dart';
 import 'page/summary/editInfo.dart';
 import 'package:qrscan/qrscan.dart' as scanner;
-import 'page/qrreader/freeLecture.dart';
+import 'page/qrreader/pageInspiration.dart';
 import 'page/qrreader/aboutus.dart';
 import 'page/summary/summaryInfos.dart';
 
@@ -72,7 +72,7 @@ class _DropdownScreenStateState extends State<DropdownScreenState> {
                 ),
                 title: Text('Scan Me')),
             BottomNavigationBarItem(
-              icon: Icon(Icons.wb_incandescent),
+              icon: Icon(Icons.mail),
               title: Text('Scan Inspired'),
             ),
             BottomNavigationBarItem(
