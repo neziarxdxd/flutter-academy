@@ -44,6 +44,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  assets:
+    - images/image.svg
+    - images/image1.png
   fonts:
     - family: Poppins
       fonts:
@@ -65,8 +68,7 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-   - images/image.svg
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
