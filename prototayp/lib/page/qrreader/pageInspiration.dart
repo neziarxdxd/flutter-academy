@@ -54,7 +54,7 @@ class _FrontPageQuotesState extends State<FrontPageQuotes> {
                   },
                   icon: Icon(Icons.add_a_photo, color: Colors.white),
                   label: Text(
-                    "Scan to get Quote",
+                    "Scan to get Message",
                     style:
                         TextStyle(fontFamily: "Poppins", color: Colors.white),
                   )),

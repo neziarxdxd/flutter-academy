@@ -33,7 +33,7 @@ class _MessageSpecialState extends State<MessageSpecial> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 30),
               child: Text(
-                " Through happiness and sorrow, I'll be with you. I love you always and forever",
+                "I am grateful that i have you in my life. I love you always and forevermore",
                 style: TextStyle(
                     fontSize: 20.0,
                     color: Colors.black87,
