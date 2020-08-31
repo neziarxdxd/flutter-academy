@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 class MessageSpecial extends StatefulWidget {
   @override
@@ -16,24 +15,33 @@ class _MessageSpecialState extends State<MessageSpecial> {
       ),
       backgroundColor: Colors.white,
       body: Center(
-        child: Container(
-          child: Padding(
-            padding: const EdgeInsets.only(left: 20),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Image.asset('images/image1.png'),
-                Text(
-                  " Happy 6th Anniversary \nBabe ",
-                  style: TextStyle(
-                      fontSize: 40.0,
-                      color: Colors.blue,
-                      fontWeight: FontWeight.bold,
-                      fontFamily: 'Poppins'),
-                ),
-              ],
+        child: ListView(
+          children: [
+            Image.asset('images/image1.png'),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 30),
+              child: Text(
+                " Happy 6th Anniversary Babe ",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                    fontSize: 45.0,
+                    color: Colors.blue,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Poppins'),
+              ),
             ),
-          ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 30),
+              child: Text(
+                " Through happiness and sorrow, I'll be with you. I love you always and forever",
+                style: TextStyle(
+                    fontSize: 20.0,
+                    color: Colors.black87,
+                    fontStyle: FontStyle.italic,
+                    fontFamily: 'Poppins'),
+              ),
+            ),
+          ],
         ),
       ),
     );
